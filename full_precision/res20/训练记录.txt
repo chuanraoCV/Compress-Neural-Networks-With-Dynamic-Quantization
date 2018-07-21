@@ -1,0 +1,783 @@
+C:\python\python.exe "F:/dynamic quantization/float_fc_back_/fc_back.py"
+2018-04-12 18:00:39.675401: W C:\tf_jenkins\home\workspace\nightly-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-12 18:00:39.675401: W C:\tf_jenkins\home\workspace\nightly-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-12 18:00:39.815801: I C:\tf_jenkins\home\workspace\nightly-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:955] Found device 0 with properties: 
+name: GeForce GTX 1060 6GB
+major: 6 minor: 1 memoryClockRate (GHz) 1.7085
+pciBusID 0000:01:00.0
+Total memory: 6.00GiB
+Free memory: 5.73GiB
+2018-04-12 18:00:39.815801: I C:\tf_jenkins\home\workspace\nightly-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:976] DMA: 0 
+2018-04-12 18:00:39.815801: I C:\tf_jenkins\home\workspace\nightly-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:986] 0:   Y 
+2018-04-12 18:00:39.815801: I C:\tf_jenkins\home\workspace\nightly-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0)
+Initializing...
+Start training...
+Learning rate set to 0.010000
+[2018-04-12 18:00:52.873001] Iteration 100, train loss = 2.224809, train accuracy = 0.367188
+[2018-04-12 18:01:01.796201] Iteration 200, train loss = 2.218004, train accuracy = 0.453125
+[2018-04-12 18:01:10.859801] Iteration 300, train loss = 1.890702, train accuracy = 0.578125
+[2018-04-12 18:01:19.876601] Iteration 400, train loss = 2.077427, train accuracy = 0.484375
+[2018-04-12 18:01:28.924601] Iteration 500, train loss = 1.799340, train accuracy = 0.562500
+[2018-04-12 18:01:37.957001] Iteration 600, train loss = 1.809437, train accuracy = 0.539062
+[2018-04-12 18:01:47.020601] Iteration 700, train loss = 1.898159, train accuracy = 0.515625
+[2018-04-12 18:01:56.021801] Iteration 800, train loss = 1.737148, train accuracy = 0.609375
+[2018-04-12 18:02:05.007401] Iteration 900, train loss = 1.522950, train accuracy = 0.656250
+[2018-04-12 18:02:14.008601] Iteration 1000, train loss = 1.500373, train accuracy = 0.664062
+Evaluating...
+Test accuracy = 0.557200
+[2018-04-12 18:02:25.115801] Iteration 1100, train loss = 1.560490, train accuracy = 0.695312
+[2018-04-12 18:02:34.148202] Iteration 1200, train loss = 1.485740, train accuracy = 0.687500
+[2018-04-12 18:02:43.211802] Iteration 1300, train loss = 1.314998, train accuracy = 0.750000
+[2018-04-12 18:02:52.337802] Iteration 1400, train loss = 1.430972, train accuracy = 0.664062
+[2018-04-12 18:03:01.307802] Iteration 1500, train loss = 1.450301, train accuracy = 0.710938
+[2018-04-12 18:03:10.449402] Iteration 1600, train loss = 1.261468, train accuracy = 0.726562
+[2018-04-12 18:03:19.450602] Iteration 1700, train loss = 1.378256, train accuracy = 0.710938
+[2018-04-12 18:03:28.483002] Iteration 1800, train loss = 1.212846, train accuracy = 0.789062
+[2018-04-12 18:03:37.531002] Iteration 1900, train loss = 1.379664, train accuracy = 0.710938
+[2018-04-12 18:03:46.625802] Iteration 2000, train loss = 1.122304, train accuracy = 0.796875
+Evaluating...
+Test accuracy = 0.618900
+[2018-04-12 18:03:57.686202] Iteration 2100, train loss = 1.359384, train accuracy = 0.703125
+[2018-04-12 18:04:06.671802] Iteration 2200, train loss = 1.162164, train accuracy = 0.781250
+[2018-04-12 18:04:15.704202] Iteration 2300, train loss = 1.215780, train accuracy = 0.757812
+[2018-04-12 18:04:24.627402] Iteration 2400, train loss = 0.996312, train accuracy = 0.828125
+[2018-04-12 18:04:33.706602] Iteration 2500, train loss = 1.132646, train accuracy = 0.789062
+[2018-04-12 18:04:42.723402] Iteration 2600, train loss = 0.977242, train accuracy = 0.812500
+[2018-04-12 18:04:51.771402] Iteration 2700, train loss = 1.164165, train accuracy = 0.789062
+[2018-04-12 18:05:00.866202] Iteration 2800, train loss = 1.192413, train accuracy = 0.765625
+[2018-04-12 18:05:10.007803] Iteration 2900, train loss = 1.232810, train accuracy = 0.765625
+[2018-04-12 18:05:19.118203] Iteration 3000, train loss = 0.959007, train accuracy = 0.804688
+Evaluating...
+Test accuracy = 0.701200
+[2018-04-12 18:05:30.209803] Iteration 3100, train loss = 1.043931, train accuracy = 0.773438
+[2018-04-12 18:05:39.226603] Iteration 3200, train loss = 0.901967, train accuracy = 0.851562
+[2018-04-12 18:05:48.243403] Iteration 3300, train loss = 0.831134, train accuracy = 0.875000
+[2018-04-12 18:05:57.244603] Iteration 3400, train loss = 1.066349, train accuracy = 0.781250
+[2018-04-12 18:06:06.230203] Iteration 3500, train loss = 1.024688, train accuracy = 0.773438
+[2018-04-12 18:06:15.387403] Iteration 3600, train loss = 1.102661, train accuracy = 0.757812
+[2018-04-12 18:06:24.341803] Iteration 3700, train loss = 0.884803, train accuracy = 0.851562
+[2018-04-12 18:06:33.327403] Iteration 3800, train loss = 0.799174, train accuracy = 0.867188
+[2018-04-12 18:06:42.422203] Iteration 3900, train loss = 0.934674, train accuracy = 0.820312
+[2018-04-12 18:06:51.392203] Iteration 4000, train loss = 0.924923, train accuracy = 0.828125
+Evaluating...
+Test accuracy = 0.689800
+[2018-04-12 18:07:02.390203] Iteration 4100, train loss = 0.894131, train accuracy = 0.820312
+[2018-04-12 18:07:11.375803] Iteration 4200, train loss = 0.926108, train accuracy = 0.843750
+[2018-04-12 18:07:20.486203] Iteration 4300, train loss = 0.954170, train accuracy = 0.781250
+[2018-04-12 18:07:29.503003] Iteration 4400, train loss = 0.921673, train accuracy = 0.804688
+[2018-04-12 18:07:38.691403] Iteration 4500, train loss = 0.857447, train accuracy = 0.812500
+[2018-04-12 18:07:47.708204] Iteration 4600, train loss = 0.948531, train accuracy = 0.796875
+[2018-04-12 18:07:56.693804] Iteration 4700, train loss = 0.755000, train accuracy = 0.859375
+[2018-04-12 18:08:05.788604] Iteration 4800, train loss = 0.849345, train accuracy = 0.835938
+[2018-04-12 18:08:14.821004] Iteration 4900, train loss = 0.817747, train accuracy = 0.835938
+[2018-04-12 18:08:23.822204] Iteration 5000, train loss = 0.781418, train accuracy = 0.867188
+Evaluating...
+Test accuracy = 0.755600
+[2018-04-12 18:08:34.867004] Iteration 5100, train loss = 0.874019, train accuracy = 0.812500
+[2018-04-12 18:08:43.868204] Iteration 5200, train loss = 0.874260, train accuracy = 0.820312
+[2018-04-12 18:08:53.025404] Iteration 5300, train loss = 0.770006, train accuracy = 0.851562
+[2018-04-12 18:09:02.089004] Iteration 5400, train loss = 0.731957, train accuracy = 0.867188
+[2018-04-12 18:09:11.137004] Iteration 5500, train loss = 0.810049, train accuracy = 0.820312
+[2018-04-12 18:09:20.185004] Iteration 5600, train loss = 0.831588, train accuracy = 0.820312
+[2018-04-12 18:09:29.217404] Iteration 5700, train loss = 0.743926, train accuracy = 0.851562
+[2018-04-12 18:09:38.265404] Iteration 5800, train loss = 0.864415, train accuracy = 0.804688
+[2018-04-12 18:09:47.313404] Iteration 5900, train loss = 0.877014, train accuracy = 0.796875
+[2018-04-12 18:09:56.377004] Iteration 6000, train loss = 0.815666, train accuracy = 0.812500
+Evaluating...
+Test accuracy = 0.745700
+[2018-04-12 18:10:07.343804] Iteration 6100, train loss = 0.843036, train accuracy = 0.843750
+[2018-04-12 18:10:16.376204] Iteration 6200, train loss = 0.769439, train accuracy = 0.867188
+[2018-04-12 18:10:25.330605] Iteration 6300, train loss = 0.789672, train accuracy = 0.835938
+[2018-04-12 18:10:34.363005] Iteration 6400, train loss = 0.676187, train accuracy = 0.882812
+[2018-04-12 18:10:43.333005] Iteration 6500, train loss = 0.723012, train accuracy = 0.843750
+[2018-04-12 18:10:52.412205] Iteration 6600, train loss = 0.702147, train accuracy = 0.867188
+[2018-04-12 18:11:01.522605] Iteration 6700, train loss = 0.688239, train accuracy = 0.867188
+[2018-04-12 18:11:10.539405] Iteration 6800, train loss = 0.649393, train accuracy = 0.898438
+[2018-04-12 18:11:19.571805] Iteration 6900, train loss = 0.813433, train accuracy = 0.820312
+[2018-04-12 18:11:28.651005] Iteration 7000, train loss = 0.649173, train accuracy = 0.882812
+Evaluating...
+Test accuracy = 0.774000
+[2018-04-12 18:11:39.633405] Iteration 7100, train loss = 0.632695, train accuracy = 0.875000
+[2018-04-12 18:11:48.665805] Iteration 7200, train loss = 0.829400, train accuracy = 0.796875
+[2018-04-12 18:11:57.698205] Iteration 7300, train loss = 0.642449, train accuracy = 0.867188
+[2018-04-12 18:12:06.746205] Iteration 7400, train loss = 0.771084, train accuracy = 0.828125
+[2018-04-12 18:12:15.872205] Iteration 7500, train loss = 0.631622, train accuracy = 0.859375
+[2018-04-12 18:12:24.935805] Iteration 7600, train loss = 0.730522, train accuracy = 0.828125
+[2018-04-12 18:12:33.937005] Iteration 7700, train loss = 0.658670, train accuracy = 0.867188
+[2018-04-12 18:12:43.094205] Iteration 7800, train loss = 0.709916, train accuracy = 0.843750
+[2018-04-12 18:12:52.095405] Iteration 7900, train loss = 0.585209, train accuracy = 0.867188
+[2018-04-12 18:13:01.127806] Iteration 8000, train loss = 0.654078, train accuracy = 0.867188
+Evaluating...
+Test accuracy = 0.715400
+[2018-04-12 18:13:12.235006] Iteration 8100, train loss = 0.693355, train accuracy = 0.851562
+[2018-04-12 18:13:21.331806] Iteration 8200, train loss = 0.562264, train accuracy = 0.890625
+[2018-04-12 18:13:30.457806] Iteration 8300, train loss = 0.646541, train accuracy = 0.859375
+[2018-04-12 18:13:39.505806] Iteration 8400, train loss = 0.700786, train accuracy = 0.843750
+[2018-04-12 18:13:48.600606] Iteration 8500, train loss = 0.546501, train accuracy = 0.921875
+[2018-04-12 18:13:57.570606] Iteration 8600, train loss = 0.529569, train accuracy = 0.914062
+[2018-04-12 18:14:06.525006] Iteration 8700, train loss = 0.595536, train accuracy = 0.859375
+[2018-04-12 18:14:15.573006] Iteration 8800, train loss = 0.689145, train accuracy = 0.867188
+[2018-04-12 18:14:24.574206] Iteration 8900, train loss = 0.754796, train accuracy = 0.820312
+[2018-04-12 18:14:33.591006] Iteration 9000, train loss = 0.405328, train accuracy = 0.945312
+Evaluating...
+Test accuracy = 0.817900
+[2018-04-12 18:14:44.651406] Iteration 9100, train loss = 0.557746, train accuracy = 0.898438
+[2018-04-12 18:14:53.637006] Iteration 9200, train loss = 0.586845, train accuracy = 0.890625
+[2018-04-12 18:15:02.638206] Iteration 9300, train loss = 0.635191, train accuracy = 0.843750
+[2018-04-12 18:15:11.639406] Iteration 9400, train loss = 0.522785, train accuracy = 0.890625
+[2018-04-12 18:15:20.749806] Iteration 9500, train loss = 0.664476, train accuracy = 0.859375
+[2018-04-12 18:15:29.813406] Iteration 9600, train loss = 0.604321, train accuracy = 0.851562
+[2018-04-12 18:15:38.830207] Iteration 9700, train loss = 0.611435, train accuracy = 0.828125
+[2018-04-12 18:15:47.862607] Iteration 9800, train loss = 0.513538, train accuracy = 0.921875
+[2018-04-12 18:15:56.910607] Iteration 9900, train loss = 0.660635, train accuracy = 0.859375
+[2018-04-12 18:16:05.911807] Iteration 10000, train loss = 0.517770, train accuracy = 0.906250
+Evaluating...
+Test accuracy = 0.821600
+[2018-04-12 18:16:17.019007] Iteration 10100, train loss = 0.659518, train accuracy = 0.859375
+[2018-04-12 18:16:26.176207] Iteration 10200, train loss = 0.704050, train accuracy = 0.835938
+[2018-04-12 18:16:35.161807] Iteration 10300, train loss = 0.558629, train accuracy = 0.875000
+[2018-04-12 18:16:44.272207] Iteration 10400, train loss = 0.619858, train accuracy = 0.882812
+[2018-04-12 18:16:53.273407] Iteration 10500, train loss = 0.547148, train accuracy = 0.867188
+[2018-04-12 18:17:02.305807] Iteration 10600, train loss = 0.443336, train accuracy = 0.937500
+[2018-04-12 18:17:11.385007] Iteration 10700, train loss = 0.514905, train accuracy = 0.882812
+[2018-04-12 18:17:20.433007] Iteration 10800, train loss = 0.570480, train accuracy = 0.875000
+[2018-04-12 18:17:29.449807] Iteration 10900, train loss = 0.556158, train accuracy = 0.851562
+[2018-04-12 18:17:38.575807] Iteration 11000, train loss = 0.505807, train accuracy = 0.890625
+Evaluating...
+Test accuracy = 0.791900
+[2018-04-12 18:17:49.589407] Iteration 11100, train loss = 0.490047, train accuracy = 0.906250
+[2018-04-12 18:17:58.684207] Iteration 11200, train loss = 0.486514, train accuracy = 0.898438
+[2018-04-12 18:18:07.607408] Iteration 11300, train loss = 0.467217, train accuracy = 0.914062
+[2018-04-12 18:18:16.639808] Iteration 11400, train loss = 0.616979, train accuracy = 0.851562
+[2018-04-12 18:18:25.687808] Iteration 11500, train loss = 0.547468, train accuracy = 0.859375
+[2018-04-12 18:18:34.813808] Iteration 11600, train loss = 0.474411, train accuracy = 0.890625
+[2018-04-12 18:18:43.861808] Iteration 11700, train loss = 0.554009, train accuracy = 0.867188
+[2018-04-12 18:18:52.987808] Iteration 11800, train loss = 0.559556, train accuracy = 0.898438
+[2018-04-12 18:19:02.035808] Iteration 11900, train loss = 0.534958, train accuracy = 0.898438
+[2018-04-12 18:19:11.021408] Iteration 12000, train loss = 0.514355, train accuracy = 0.875000
+Evaluating...
+Test accuracy = 0.813200
+[2018-04-12 18:19:22.128608] Iteration 12100, train loss = 0.688069, train accuracy = 0.859375
+[2018-04-12 18:19:31.129808] Iteration 12200, train loss = 0.520289, train accuracy = 0.898438
+[2018-04-12 18:19:40.146608] Iteration 12300, train loss = 0.530759, train accuracy = 0.890625
+[2018-04-12 18:19:49.163408] Iteration 12400, train loss = 0.665961, train accuracy = 0.867188
+[2018-04-12 18:19:58.227008] Iteration 12500, train loss = 0.686471, train accuracy = 0.843750
+[2018-04-12 18:20:07.181408] Iteration 12600, train loss = 0.420511, train accuracy = 0.953125
+[2018-04-12 18:20:16.198208] Iteration 12700, train loss = 0.421749, train accuracy = 0.914062
+[2018-04-12 18:20:25.230608] Iteration 12800, train loss = 0.504564, train accuracy = 0.890625
+[2018-04-12 18:20:34.309808] Iteration 12900, train loss = 0.537729, train accuracy = 0.859375
+[2018-04-12 18:20:43.389008] Iteration 13000, train loss = 0.583188, train accuracy = 0.875000
+Evaluating...
+Test accuracy = 0.821400
+[2018-04-12 18:20:54.402609] Iteration 13100, train loss = 0.489161, train accuracy = 0.914062
+[2018-04-12 18:21:03.513009] Iteration 13200, train loss = 0.555440, train accuracy = 0.890625
+[2018-04-12 18:21:12.529809] Iteration 13300, train loss = 0.555308, train accuracy = 0.882812
+[2018-04-12 18:21:21.562209] Iteration 13400, train loss = 0.511040, train accuracy = 0.890625
+[2018-04-12 18:21:30.672609] Iteration 13500, train loss = 0.622515, train accuracy = 0.851562
+[2018-04-12 18:21:39.689409] Iteration 13600, train loss = 0.475600, train accuracy = 0.890625
+[2018-04-12 18:21:48.721809] Iteration 13700, train loss = 0.601106, train accuracy = 0.828125
+[2018-04-12 18:21:57.754209] Iteration 13800, train loss = 0.610096, train accuracy = 0.859375
+[2018-04-12 18:22:06.817809] Iteration 13900, train loss = 0.539586, train accuracy = 0.875000
+[2018-04-12 18:22:15.803409] Iteration 14000, train loss = 0.518583, train accuracy = 0.898438
+Evaluating...
+Test accuracy = 0.814200
+[2018-04-12 18:22:26.863809] Iteration 14100, train loss = 0.533067, train accuracy = 0.867188
+[2018-04-12 18:22:35.896209] Iteration 14200, train loss = 0.503920, train accuracy = 0.890625
+[2018-04-12 18:22:44.959809] Iteration 14300, train loss = 0.633562, train accuracy = 0.867188
+[2018-04-12 18:22:53.976609] Iteration 14400, train loss = 0.464875, train accuracy = 0.937500
+[2018-04-12 18:23:03.009009] Iteration 14500, train loss = 0.516139, train accuracy = 0.882812
+[2018-04-12 18:23:12.010209] Iteration 14600, train loss = 0.494936, train accuracy = 0.914062
+[2018-04-12 18:23:21.073810] Iteration 14700, train loss = 0.486124, train accuracy = 0.906250
+[2018-04-12 18:23:30.059410] Iteration 14800, train loss = 0.443092, train accuracy = 0.937500
+[2018-04-12 18:23:39.107410] Iteration 14900, train loss = 0.480069, train accuracy = 0.906250
+[2018-04-12 18:23:48.155410] Iteration 15000, train loss = 0.571468, train accuracy = 0.843750
+Evaluating...
+Test accuracy = 0.791700
+[2018-04-12 18:23:59.200210] Iteration 15100, train loss = 0.547607, train accuracy = 0.867188
+[2018-04-12 18:24:08.248210] Iteration 15200, train loss = 0.514421, train accuracy = 0.914062
+[2018-04-12 18:24:17.249410] Iteration 15300, train loss = 0.592055, train accuracy = 0.843750
+[2018-04-12 18:24:26.375410] Iteration 15400, train loss = 0.399184, train accuracy = 0.937500
+[2018-04-12 18:24:35.439010] Iteration 15500, train loss = 0.475297, train accuracy = 0.898438
+[2018-04-12 18:24:44.487010] Iteration 15600, train loss = 0.640578, train accuracy = 0.835938
+[2018-04-12 18:24:53.519410] Iteration 15700, train loss = 0.539516, train accuracy = 0.867188
+[2018-04-12 18:25:02.583010] Iteration 15800, train loss = 0.485709, train accuracy = 0.898438
+[2018-04-12 18:25:11.615410] Iteration 15900, train loss = 0.572027, train accuracy = 0.843750
+[2018-04-12 18:25:20.616610] Iteration 16000, train loss = 0.493166, train accuracy = 0.921875
+Evaluating...
+Test accuracy = 0.801000
+[2018-04-12 18:25:31.692610] Iteration 16100, train loss = 0.517834, train accuracy = 0.882812
+[2018-04-12 18:25:40.756210] Iteration 16200, train loss = 0.501599, train accuracy = 0.890625
+[2018-04-12 18:25:49.773010] Iteration 16300, train loss = 0.549450, train accuracy = 0.867188
+[2018-04-12 18:25:58.821011] Iteration 16400, train loss = 0.478265, train accuracy = 0.898438
+[2018-04-12 18:26:07.853411] Iteration 16500, train loss = 0.424266, train accuracy = 0.937500
+[2018-04-12 18:26:16.870211] Iteration 16600, train loss = 0.339581, train accuracy = 0.960938
+[2018-04-12 18:26:25.965011] Iteration 16700, train loss = 0.497914, train accuracy = 0.875000
+[2018-04-12 18:26:34.966211] Iteration 16800, train loss = 0.485805, train accuracy = 0.898438
+[2018-04-12 18:26:44.029811] Iteration 16900, train loss = 0.494940, train accuracy = 0.898438
+[2018-04-12 18:26:52.968611] Iteration 17000, train loss = 0.484326, train accuracy = 0.882812
+Evaluating...
+Test accuracy = 0.770500
+[2018-04-12 18:27:04.075811] Iteration 17100, train loss = 0.508977, train accuracy = 0.867188
+[2018-04-12 18:27:13.123811] Iteration 17200, train loss = 0.482828, train accuracy = 0.921875
+[2018-04-12 18:27:22.109411] Iteration 17300, train loss = 0.490812, train accuracy = 0.898438
+[2018-04-12 18:27:31.188611] Iteration 17400, train loss = 0.380396, train accuracy = 0.945312
+[2018-04-12 18:27:40.221011] Iteration 17500, train loss = 0.520570, train accuracy = 0.882812
+[2018-04-12 18:27:49.347011] Iteration 17600, train loss = 0.511759, train accuracy = 0.898438
+[2018-04-12 18:27:58.410611] Iteration 17700, train loss = 0.441872, train accuracy = 0.898438
+[2018-04-12 18:28:07.427411] Iteration 17800, train loss = 0.389268, train accuracy = 0.914062
+[2018-04-12 18:28:16.631411] Iteration 17900, train loss = 0.439929, train accuracy = 0.914062
+[2018-04-12 18:28:25.648211] Iteration 18000, train loss = 0.450909, train accuracy = 0.929688
+Evaluating...
+Test accuracy = 0.798100
+[2018-04-12 18:28:36.708612] Iteration 18100, train loss = 0.385002, train accuracy = 0.945312
+[2018-04-12 18:28:45.741012] Iteration 18200, train loss = 0.414413, train accuracy = 0.914062
+[2018-04-12 18:28:54.789012] Iteration 18300, train loss = 0.547699, train accuracy = 0.898438
+[2018-04-12 18:29:03.821412] Iteration 18400, train loss = 0.461049, train accuracy = 0.882812
+[2018-04-12 18:29:12.963012] Iteration 18500, train loss = 0.467986, train accuracy = 0.898438
+[2018-04-12 18:29:21.964212] Iteration 18600, train loss = 0.395092, train accuracy = 0.945312
+[2018-04-12 18:29:30.981012] Iteration 18700, train loss = 0.486162, train accuracy = 0.898438
+[2018-04-12 18:29:40.013412] Iteration 18800, train loss = 0.454425, train accuracy = 0.906250
+[2018-04-12 18:29:49.014612] Iteration 18900, train loss = 0.443890, train accuracy = 0.914062
+[2018-04-12 18:29:57.969012] Iteration 19000, train loss = 0.452471, train accuracy = 0.906250
+Evaluating...
+Test accuracy = 0.803900
+[2018-04-12 18:30:09.013812] Iteration 19100, train loss = 0.525432, train accuracy = 0.882812
+[2018-04-12 18:30:18.061812] Iteration 19200, train loss = 0.422559, train accuracy = 0.929688
+[2018-04-12 18:30:27.187812] Iteration 19300, train loss = 0.481107, train accuracy = 0.875000
+[2018-04-12 18:30:36.220212] Iteration 19400, train loss = 0.572836, train accuracy = 0.867188
+[2018-04-12 18:30:45.174612] Iteration 19500, train loss = 0.539160, train accuracy = 0.875000
+[2018-04-12 18:30:54.144612] Iteration 19600, train loss = 0.425074, train accuracy = 0.906250
+[2018-04-12 18:31:03.255012] Iteration 19700, train loss = 0.555721, train accuracy = 0.906250
+[2018-04-12 18:31:12.303013] Iteration 19800, train loss = 0.492523, train accuracy = 0.882812
+[2018-04-12 18:31:21.335413] Iteration 19900, train loss = 0.467434, train accuracy = 0.890625
+[2018-04-12 18:31:30.445813] Iteration 20000, train loss = 0.464453, train accuracy = 0.890625
+Evaluating...
+Test accuracy = 0.819600
+[2018-04-12 18:31:41.490613] Iteration 20100, train loss = 0.441407, train accuracy = 0.906250
+[2018-04-12 18:31:50.538613] Iteration 20200, train loss = 0.458446, train accuracy = 0.921875
+[2018-04-12 18:31:59.539813] Iteration 20300, train loss = 0.516502, train accuracy = 0.882812
+[2018-04-12 18:32:08.587813] Iteration 20400, train loss = 0.398085, train accuracy = 0.929688
+[2018-04-12 18:32:17.620213] Iteration 20500, train loss = 0.535027, train accuracy = 0.867188
+[2018-04-12 18:32:26.605813] Iteration 20600, train loss = 0.515078, train accuracy = 0.859375
+[2018-04-12 18:32:35.560213] Iteration 20700, train loss = 0.628522, train accuracy = 0.882812
+[2018-04-12 18:32:44.639413] Iteration 20800, train loss = 0.370388, train accuracy = 0.960938
+[2018-04-12 18:32:53.703013] Iteration 20900, train loss = 0.428890, train accuracy = 0.921875
+[2018-04-12 18:33:02.719813] Iteration 21000, train loss = 0.486643, train accuracy = 0.898438
+Evaluating...
+Test accuracy = 0.826500
+[2018-04-12 18:33:13.764613] Iteration 21100, train loss = 0.648940, train accuracy = 0.867188
+[2018-04-12 18:33:22.828213] Iteration 21200, train loss = 0.414191, train accuracy = 0.898438
+[2018-04-12 18:33:31.860613] Iteration 21300, train loss = 0.370784, train accuracy = 0.968750
+[2018-04-12 18:33:40.846213] Iteration 21400, train loss = 0.398085, train accuracy = 0.929688
+[2018-04-12 18:33:49.925414] Iteration 21500, train loss = 0.530217, train accuracy = 0.898438
+[2018-04-12 18:33:58.989014] Iteration 21600, train loss = 0.417147, train accuracy = 0.921875
+[2018-04-12 18:34:07.943414] Iteration 21700, train loss = 0.481432, train accuracy = 0.906250
+[2018-04-12 18:34:16.975814] Iteration 21800, train loss = 0.584798, train accuracy = 0.898438
+[2018-04-12 18:34:26.039414] Iteration 21900, train loss = 0.511282, train accuracy = 0.882812
+[2018-04-12 18:34:35.149814] Iteration 22000, train loss = 0.555555, train accuracy = 0.875000
+Evaluating...
+Test accuracy = 0.795300
+[2018-04-12 18:34:46.335014] Iteration 22100, train loss = 0.430219, train accuracy = 0.906250
+[2018-04-12 18:34:55.351814] Iteration 22200, train loss = 0.431987, train accuracy = 0.882812
+[2018-04-12 18:35:04.431014] Iteration 22300, train loss = 0.409225, train accuracy = 0.929688
+[2018-04-12 18:35:13.479014] Iteration 22400, train loss = 0.465905, train accuracy = 0.882812
+[2018-04-12 18:35:22.542614] Iteration 22500, train loss = 0.420909, train accuracy = 0.945312
+[2018-04-12 18:35:31.512614] Iteration 22600, train loss = 0.484971, train accuracy = 0.882812
+[2018-04-12 18:35:40.576214] Iteration 22700, train loss = 0.402730, train accuracy = 0.937500
+[2018-04-12 18:35:49.671014] Iteration 22800, train loss = 0.470754, train accuracy = 0.882812
+[2018-04-12 18:35:58.765814] Iteration 22900, train loss = 0.476491, train accuracy = 0.898438
+[2018-04-12 18:36:07.735814] Iteration 23000, train loss = 0.471971, train accuracy = 0.898438
+Evaluating...
+Test accuracy = 0.810600
+[2018-04-12 18:36:18.702614] Iteration 23100, train loss = 0.391682, train accuracy = 0.945312
+[2018-04-12 18:36:27.657015] Iteration 23200, train loss = 0.435149, train accuracy = 0.921875
+[2018-04-12 18:36:36.658215] Iteration 23300, train loss = 0.490928, train accuracy = 0.898438
+[2018-04-12 18:36:45.706215] Iteration 23400, train loss = 0.394353, train accuracy = 0.937500
+[2018-04-12 18:36:54.785415] Iteration 23500, train loss = 0.394885, train accuracy = 0.914062
+[2018-04-12 18:37:03.802215] Iteration 23600, train loss = 0.416348, train accuracy = 0.914062
+[2018-04-12 18:37:12.819015] Iteration 23700, train loss = 0.446947, train accuracy = 0.921875
+[2018-04-12 18:37:21.929415] Iteration 23800, train loss = 0.428900, train accuracy = 0.921875
+[2018-04-12 18:37:31.008615] Iteration 23900, train loss = 0.395313, train accuracy = 0.929688
+[2018-04-12 18:37:40.025415] Iteration 24000, train loss = 0.483695, train accuracy = 0.882812
+Evaluating...
+Test accuracy = 0.754100
+[2018-04-12 18:37:51.148215] Iteration 24100, train loss = 0.453980, train accuracy = 0.906250
+[2018-04-12 18:38:00.196215] Iteration 24200, train loss = 0.397750, train accuracy = 0.929688
+[2018-04-12 18:38:09.275415] Iteration 24300, train loss = 0.443336, train accuracy = 0.937500
+[2018-04-12 18:38:18.340015] Iteration 24400, train loss = 0.458221, train accuracy = 0.921875
+[2018-04-12 18:38:27.450415] Iteration 24500, train loss = 0.360259, train accuracy = 0.937500
+[2018-04-12 18:38:36.467215] Iteration 24600, train loss = 0.337729, train accuracy = 0.976562
+[2018-04-12 18:38:45.546415] Iteration 24700, train loss = 0.393843, train accuracy = 0.921875
+[2018-04-12 18:38:54.500815] Iteration 24800, train loss = 0.498121, train accuracy = 0.882812
+[2018-04-12 18:39:03.564416] Iteration 24900, train loss = 0.432697, train accuracy = 0.914062
+[2018-04-12 18:39:12.659216] Iteration 25000, train loss = 0.404918, train accuracy = 0.945312
+Evaluating...
+Test accuracy = 0.805600
+[2018-04-12 18:39:23.735216] Iteration 25100, train loss = 0.459962, train accuracy = 0.898438
+[2018-04-12 18:39:32.720816] Iteration 25200, train loss = 0.484448, train accuracy = 0.906250
+[2018-04-12 18:39:41.831216] Iteration 25300, train loss = 0.439607, train accuracy = 0.921875
+[2018-04-12 18:39:50.926016] Iteration 25400, train loss = 0.399790, train accuracy = 0.914062
+[2018-04-12 18:39:59.974016] Iteration 25500, train loss = 0.433969, train accuracy = 0.914062
+[2018-04-12 18:40:08.959616] Iteration 25600, train loss = 0.425522, train accuracy = 0.914062
+[2018-04-12 18:40:18.007616] Iteration 25700, train loss = 0.568804, train accuracy = 0.843750
+[2018-04-12 18:40:27.086816] Iteration 25800, train loss = 0.431555, train accuracy = 0.929688
+[2018-04-12 18:40:36.166016] Iteration 25900, train loss = 0.462501, train accuracy = 0.921875
+[2018-04-12 18:40:45.323216] Iteration 26000, train loss = 0.406634, train accuracy = 0.921875
+Evaluating...
+Test accuracy = 0.836600
+[2018-04-12 18:40:56.414816] Iteration 26100, train loss = 0.480942, train accuracy = 0.921875
+[2018-04-12 18:41:05.478416] Iteration 26200, train loss = 0.509342, train accuracy = 0.898438
+[2018-04-12 18:41:14.510816] Iteration 26300, train loss = 0.428737, train accuracy = 0.914062
+[2018-04-12 18:41:23.527616] Iteration 26400, train loss = 0.538314, train accuracy = 0.882812
+[2018-04-12 18:41:32.591217] Iteration 26500, train loss = 0.406379, train accuracy = 0.921875
+[2018-04-12 18:41:41.623617] Iteration 26600, train loss = 0.470762, train accuracy = 0.906250
+[2018-04-12 18:41:50.687217] Iteration 26700, train loss = 0.466548, train accuracy = 0.890625
+[2018-04-12 18:41:59.719617] Iteration 26800, train loss = 0.507574, train accuracy = 0.843750
+[2018-04-12 18:42:08.752017] Iteration 26900, train loss = 0.389845, train accuracy = 0.929688
+[2018-04-12 18:42:17.800017] Iteration 27000, train loss = 0.365596, train accuracy = 0.921875
+Evaluating...
+Test accuracy = 0.743200
+[2018-04-12 18:42:28.891617] Iteration 27100, train loss = 0.317843, train accuracy = 0.937500
+[2018-04-12 18:42:37.908417] Iteration 27200, train loss = 0.439739, train accuracy = 0.921875
+[2018-04-12 18:42:46.925217] Iteration 27300, train loss = 0.408921, train accuracy = 0.937500
+[2018-04-12 18:42:55.973217] Iteration 27400, train loss = 0.390640, train accuracy = 0.921875
+[2018-04-12 18:43:04.958817] Iteration 27500, train loss = 0.440610, train accuracy = 0.914062
+[2018-04-12 18:43:14.022417] Iteration 27600, train loss = 0.537535, train accuracy = 0.882812
+[2018-04-12 18:43:23.164017] Iteration 27700, train loss = 0.526217, train accuracy = 0.906250
+[2018-04-12 18:43:32.196417] Iteration 27800, train loss = 0.448571, train accuracy = 0.906250
+[2018-04-12 18:43:41.244417] Iteration 27900, train loss = 0.609020, train accuracy = 0.882812
+[2018-04-12 18:43:50.308017] Iteration 28000, train loss = 0.423986, train accuracy = 0.929688
+Evaluating...
+Test accuracy = 0.834900
+[2018-04-12 18:44:01.290417] Iteration 28100, train loss = 0.434158, train accuracy = 0.937500
+[2018-04-12 18:44:10.400818] Iteration 28200, train loss = 0.377379, train accuracy = 0.937500
+[2018-04-12 18:44:19.417618] Iteration 28300, train loss = 0.390051, train accuracy = 0.945312
+[2018-04-12 18:44:28.418818] Iteration 28400, train loss = 0.395875, train accuracy = 0.921875
+[2018-04-12 18:44:37.560418] Iteration 28500, train loss = 0.427229, train accuracy = 0.921875
+[2018-04-12 18:44:46.546018] Iteration 28600, train loss = 0.460490, train accuracy = 0.914062
+[2018-04-12 18:44:55.609618] Iteration 28700, train loss = 0.565479, train accuracy = 0.859375
+[2018-04-12 18:45:04.626418] Iteration 28800, train loss = 0.421631, train accuracy = 0.937500
+[2018-04-12 18:45:13.674418] Iteration 28900, train loss = 0.435458, train accuracy = 0.921875
+[2018-04-12 18:45:22.831618] Iteration 29000, train loss = 0.470317, train accuracy = 0.882812
+Evaluating...
+Test accuracy = 0.821600
+[2018-04-12 18:45:33.845218] Iteration 29100, train loss = 0.454071, train accuracy = 0.914062
+[2018-04-12 18:45:42.846418] Iteration 29200, train loss = 0.401015, train accuracy = 0.945312
+[2018-04-12 18:45:51.941218] Iteration 29300, train loss = 0.471897, train accuracy = 0.906250
+[2018-04-12 18:46:01.004818] Iteration 29400, train loss = 0.446189, train accuracy = 0.937500
+[2018-04-12 18:46:10.021618] Iteration 29500, train loss = 0.405147, train accuracy = 0.921875
+[2018-04-12 18:46:19.085218] Iteration 29600, train loss = 0.389410, train accuracy = 0.945312
+[2018-04-12 18:46:28.211218] Iteration 29700, train loss = 0.358633, train accuracy = 0.937500
+[2018-04-12 18:46:37.259218] Iteration 29800, train loss = 0.314654, train accuracy = 0.976562
+[2018-04-12 18:46:46.400819] Iteration 29900, train loss = 0.392129, train accuracy = 0.929688
+[2018-04-12 18:46:55.433219] Iteration 30000, train loss = 0.482780, train accuracy = 0.906250
+Evaluating...
+Test accuracy = 0.784600
+[2018-04-12 18:47:06.431219] Iteration 30100, train loss = 0.403412, train accuracy = 0.921875
+[2018-04-12 18:47:15.541619] Iteration 30200, train loss = 0.305631, train accuracy = 0.968750
+[2018-04-12 18:47:24.558419] Iteration 30300, train loss = 0.419736, train accuracy = 0.890625
+[2018-04-12 18:47:33.544019] Iteration 30400, train loss = 0.347234, train accuracy = 0.968750
+[2018-04-12 18:47:42.560819] Iteration 30500, train loss = 0.453712, train accuracy = 0.890625
+[2018-04-12 18:47:51.655619] Iteration 30600, train loss = 0.412690, train accuracy = 0.929688
+[2018-04-12 18:48:00.625619] Iteration 30700, train loss = 0.446400, train accuracy = 0.906250
+[2018-04-12 18:48:09.751619] Iteration 30800, train loss = 0.405617, train accuracy = 0.906250
+[2018-04-12 18:48:18.815219] Iteration 30900, train loss = 0.448969, train accuracy = 0.914062
+[2018-04-12 18:48:27.832019] Iteration 31000, train loss = 0.480415, train accuracy = 0.890625
+Evaluating...
+Test accuracy = 0.857100
+[2018-04-12 18:48:38.876819] Iteration 31100, train loss = 0.419705, train accuracy = 0.929688
+[2018-04-12 18:48:47.987219] Iteration 31200, train loss = 0.464849, train accuracy = 0.898438
+[2018-04-12 18:48:56.957219] Iteration 31300, train loss = 0.407793, train accuracy = 0.898438
+[2018-04-12 18:49:05.989619] Iteration 31400, train loss = 0.373075, train accuracy = 0.937500
+[2018-04-12 18:49:15.068819] Iteration 31500, train loss = 0.401181, train accuracy = 0.929688
+[2018-04-12 18:49:24.101220] Iteration 31600, train loss = 0.363740, train accuracy = 0.953125
+[2018-04-12 18:49:33.149220] Iteration 31700, train loss = 0.419473, train accuracy = 0.937500
+[2018-04-12 18:49:42.166020] Iteration 31800, train loss = 0.465202, train accuracy = 0.921875
+[2018-04-12 18:49:51.260820] Iteration 31900, train loss = 0.435779, train accuracy = 0.937500
+[2018-04-12 18:50:00.246420] Iteration 32000, train loss = 0.393183, train accuracy = 0.953125
+Evaluating...
+Test accuracy = 0.835300
+[2018-04-12 18:50:11.322420] Iteration 32100, train loss = 0.502606, train accuracy = 0.882812
+[2018-04-12 18:50:20.386020] Iteration 32200, train loss = 0.426877, train accuracy = 0.929688
+[2018-04-12 18:50:29.434020] Iteration 32300, train loss = 0.485832, train accuracy = 0.906250
+[2018-04-12 18:50:38.513220] Iteration 32400, train loss = 0.508421, train accuracy = 0.890625
+[2018-04-12 18:50:47.498820] Iteration 32500, train loss = 0.303343, train accuracy = 0.976562
+[2018-04-12 18:50:56.484420] Iteration 32600, train loss = 0.457875, train accuracy = 0.906250
+[2018-04-12 18:51:05.626020] Iteration 32700, train loss = 0.433383, train accuracy = 0.929688
+[2018-04-12 18:51:14.642820] Iteration 32800, train loss = 0.342072, train accuracy = 0.945312
+[2018-04-12 18:51:23.659620] Iteration 32900, train loss = 0.534639, train accuracy = 0.914062
+[2018-04-12 18:51:32.676420] Iteration 33000, train loss = 0.479171, train accuracy = 0.906250
+Evaluating...
+Test accuracy = 0.841200
+[2018-04-12 18:51:43.721220] Iteration 33100, train loss = 0.419664, train accuracy = 0.929688
+[2018-04-12 18:51:52.706820] Iteration 33200, train loss = 0.361837, train accuracy = 0.945312
+[2018-04-12 18:52:01.801621] Iteration 33300, train loss = 0.360925, train accuracy = 0.945312
+[2018-04-12 18:52:10.880821] Iteration 33400, train loss = 0.336984, train accuracy = 0.945312
+[2018-04-12 18:52:19.944421] Iteration 33500, train loss = 0.407793, train accuracy = 0.921875
+[2018-04-12 18:52:29.039221] Iteration 33600, train loss = 0.410406, train accuracy = 0.945312
+[2018-04-12 18:52:38.071621] Iteration 33700, train loss = 0.441518, train accuracy = 0.882812
+[2018-04-12 18:52:47.135221] Iteration 33800, train loss = 0.367824, train accuracy = 0.945312
+[2018-04-12 18:52:56.261221] Iteration 33900, train loss = 0.471760, train accuracy = 0.890625
+[2018-04-12 18:53:05.309221] Iteration 34000, train loss = 0.422920, train accuracy = 0.906250
+Evaluating...
+Test accuracy = 0.820800
+[2018-04-12 18:53:16.307221] Iteration 34100, train loss = 0.340822, train accuracy = 0.953125
+[2018-04-12 18:53:25.370821] Iteration 34200, train loss = 0.463819, train accuracy = 0.906250
+[2018-04-12 18:53:34.356421] Iteration 34300, train loss = 0.557012, train accuracy = 0.882812
+[2018-04-12 18:53:43.404421] Iteration 34400, train loss = 0.428086, train accuracy = 0.921875
+[2018-04-12 18:53:52.390021] Iteration 34500, train loss = 0.428608, train accuracy = 0.906250
+[2018-04-12 18:54:01.453621] Iteration 34600, train loss = 0.474434, train accuracy = 0.906250
+[2018-04-12 18:54:10.517221] Iteration 34700, train loss = 0.352423, train accuracy = 0.960938
+[2018-04-12 18:54:19.580821] Iteration 34800, train loss = 0.444211, train accuracy = 0.929688
+[2018-04-12 18:54:28.550821] Iteration 34900, train loss = 0.419423, train accuracy = 0.906250
+[2018-04-12 18:54:37.598822] Iteration 35000, train loss = 0.462797, train accuracy = 0.914062
+Evaluating...
+Test accuracy = 0.850700
+[2018-04-12 18:54:48.784022] Iteration 35100, train loss = 0.370264, train accuracy = 0.921875
+[2018-04-12 18:54:57.847622] Iteration 35200, train loss = 0.637870, train accuracy = 0.843750
+[2018-04-12 18:55:07.036022] Iteration 35300, train loss = 0.412686, train accuracy = 0.921875
+[2018-04-12 18:55:16.130822] Iteration 35400, train loss = 0.396252, train accuracy = 0.914062
+[2018-04-12 18:55:25.194422] Iteration 35500, train loss = 0.495936, train accuracy = 0.914062
+[2018-04-12 18:55:34.180022] Iteration 35600, train loss = 0.642010, train accuracy = 0.843750
+[2018-04-12 18:55:43.274822] Iteration 35700, train loss = 0.480363, train accuracy = 0.921875
+[2018-04-12 18:55:52.338422] Iteration 35800, train loss = 0.380739, train accuracy = 0.929688
+[2018-04-12 18:56:01.308422] Iteration 35900, train loss = 0.363925, train accuracy = 0.945312
+[2018-04-12 18:56:10.387622] Iteration 36000, train loss = 0.487436, train accuracy = 0.882812
+Evaluating...
+Test accuracy = 0.773400
+[2018-04-12 18:56:21.448022] Iteration 36100, train loss = 0.392170, train accuracy = 0.914062
+[2018-04-12 18:56:30.464822] Iteration 36200, train loss = 0.440343, train accuracy = 0.921875
+[2018-04-12 18:56:39.559622] Iteration 36300, train loss = 0.463693, train accuracy = 0.906250
+[2018-04-12 18:56:48.654422] Iteration 36400, train loss = 0.514857, train accuracy = 0.882812
+[2018-04-12 18:56:57.640022] Iteration 36500, train loss = 0.416775, train accuracy = 0.929688
+[2018-04-12 18:57:06.594422] Iteration 36600, train loss = 0.372063, train accuracy = 0.937500
+[2018-04-12 18:57:15.580023] Iteration 36700, train loss = 0.411205, train accuracy = 0.921875
+[2018-04-12 18:57:24.628023] Iteration 36800, train loss = 0.382514, train accuracy = 0.937500
+[2018-04-12 18:57:33.707223] Iteration 36900, train loss = 0.479671, train accuracy = 0.898438
+[2018-04-12 18:57:42.755223] Iteration 37000, train loss = 0.445037, train accuracy = 0.914062
+Evaluating...
+Test accuracy = 0.835500
+[2018-04-12 18:57:53.815623] Iteration 37100, train loss = 0.353135, train accuracy = 0.960938
+[2018-04-12 18:58:02.848023] Iteration 37200, train loss = 0.384713, train accuracy = 0.921875
+[2018-04-12 18:58:11.942823] Iteration 37300, train loss = 0.396233, train accuracy = 0.921875
+[2018-04-12 18:58:21.006423] Iteration 37400, train loss = 0.415859, train accuracy = 0.906250
+[2018-04-12 18:58:30.054423] Iteration 37500, train loss = 0.413422, train accuracy = 0.929688
+[2018-04-12 18:58:39.149223] Iteration 37600, train loss = 0.506497, train accuracy = 0.890625
+[2018-04-12 18:58:48.212823] Iteration 37700, train loss = 0.337446, train accuracy = 0.960938
+[2018-04-12 18:58:57.292023] Iteration 37800, train loss = 0.486935, train accuracy = 0.890625
+[2018-04-12 18:59:06.324423] Iteration 37900, train loss = 0.496190, train accuracy = 0.875000
+[2018-04-12 18:59:15.419223] Iteration 38000, train loss = 0.341070, train accuracy = 0.945312
+Evaluating...
+Test accuracy = 0.771700
+[2018-04-12 18:59:26.495223] Iteration 38100, train loss = 0.417442, train accuracy = 0.945312
+[2018-04-12 18:59:35.527623] Iteration 38200, train loss = 0.440981, train accuracy = 0.921875
+[2018-04-12 18:59:44.622424] Iteration 38300, train loss = 0.441808, train accuracy = 0.906250
+[2018-04-12 18:59:53.779624] Iteration 38400, train loss = 0.482574, train accuracy = 0.906250
+[2018-04-12 19:00:02.812024] Iteration 38500, train loss = 0.367377, train accuracy = 0.937500
+[2018-04-12 19:00:11.860024] Iteration 38600, train loss = 0.478823, train accuracy = 0.890625
+[2018-04-12 19:00:20.954824] Iteration 38700, train loss = 0.431895, train accuracy = 0.937500
+[2018-04-12 19:00:30.002824] Iteration 38800, train loss = 0.384093, train accuracy = 0.921875
+[2018-04-12 19:00:39.082024] Iteration 38900, train loss = 0.458722, train accuracy = 0.890625
+[2018-04-12 19:00:48.098824] Iteration 39000, train loss = 0.407878, train accuracy = 0.906250
+Evaluating...
+Test accuracy = 0.790400
+[2018-04-12 19:00:59.112424] Iteration 39100, train loss = 0.379741, train accuracy = 0.929688
+[2018-04-12 19:01:08.144824] Iteration 39200, train loss = 0.402076, train accuracy = 0.929688
+[2018-04-12 19:01:17.255224] Iteration 39300, train loss = 0.443092, train accuracy = 0.875000
+[2018-04-12 19:01:26.350024] Iteration 39400, train loss = 0.402370, train accuracy = 0.906250
+[2018-04-12 19:01:35.413624] Iteration 39500, train loss = 0.369900, train accuracy = 0.929688
+[2018-04-12 19:01:44.446024] Iteration 39600, train loss = 0.449693, train accuracy = 0.890625
+[2018-04-12 19:01:53.416024] Iteration 39700, train loss = 0.345717, train accuracy = 0.945312
+[2018-04-12 19:02:02.401624] Iteration 39800, train loss = 0.348391, train accuracy = 0.945312
+[2018-04-12 19:02:11.480824] Iteration 39900, train loss = 0.544112, train accuracy = 0.867188
+[2018-04-12 19:02:20.497625] Iteration 40000, train loss = 0.349729, train accuracy = 0.945312
+Evaluating...
+Test accuracy = 0.843300
+[2018-04-12 19:02:31.651625] Iteration 40100, train loss = 0.461635, train accuracy = 0.921875
+[2018-04-12 19:02:40.684025] Iteration 40200, train loss = 0.356969, train accuracy = 0.945312
+[2018-04-12 19:02:49.747625] Iteration 40300, train loss = 0.464513, train accuracy = 0.890625
+[2018-04-12 19:02:58.764425] Iteration 40400, train loss = 0.364835, train accuracy = 0.953125
+[2018-04-12 19:03:07.781225] Iteration 40500, train loss = 0.382275, train accuracy = 0.937500
+[2018-04-12 19:03:16.766825] Iteration 40600, train loss = 0.357660, train accuracy = 0.945312
+[2018-04-12 19:03:25.814825] Iteration 40700, train loss = 0.464527, train accuracy = 0.890625
+[2018-04-12 19:03:34.894025] Iteration 40800, train loss = 0.387734, train accuracy = 0.945312
+[2018-04-12 19:03:43.926425] Iteration 40900, train loss = 0.500476, train accuracy = 0.914062
+[2018-04-12 19:03:52.943225] Iteration 41000, train loss = 0.373305, train accuracy = 0.953125
+Evaluating...
+Test accuracy = 0.782600
+[2018-04-12 19:04:04.081625] Iteration 41100, train loss = 0.442059, train accuracy = 0.921875
+[2018-04-12 19:04:13.129625] Iteration 41200, train loss = 0.423083, train accuracy = 0.945312
+[2018-04-12 19:04:22.162025] Iteration 41300, train loss = 0.377400, train accuracy = 0.945312
+[2018-04-12 19:04:31.147625] Iteration 41400, train loss = 0.403118, train accuracy = 0.929688
+[2018-04-12 19:04:40.164425] Iteration 41500, train loss = 0.408505, train accuracy = 0.937500
+[2018-04-12 19:04:49.243625] Iteration 41600, train loss = 0.465857, train accuracy = 0.914062
+[2018-04-12 19:04:58.276026] Iteration 41700, train loss = 0.411604, train accuracy = 0.890625
+[2018-04-12 19:05:07.339626] Iteration 41800, train loss = 0.448447, train accuracy = 0.906250
+[2018-04-12 19:05:16.418826] Iteration 41900, train loss = 0.408219, train accuracy = 0.929688
+[2018-04-12 19:05:25.513626] Iteration 42000, train loss = 0.475795, train accuracy = 0.929688
+Evaluating...
+Test accuracy = 0.846500
+[2018-04-12 19:05:36.527226] Iteration 42100, train loss = 0.363055, train accuracy = 0.929688
+[2018-04-12 19:05:45.544026] Iteration 42200, train loss = 0.330218, train accuracy = 0.953125
+[2018-04-12 19:05:54.592026] Iteration 42300, train loss = 0.460628, train accuracy = 0.929688
+[2018-04-12 19:06:03.671226] Iteration 42400, train loss = 0.398934, train accuracy = 0.914062
+[2018-04-12 19:06:12.750426] Iteration 42500, train loss = 0.422319, train accuracy = 0.929688
+[2018-04-12 19:06:21.907626] Iteration 42600, train loss = 0.424519, train accuracy = 0.929688
+[2018-04-12 19:06:30.971226] Iteration 42700, train loss = 0.433871, train accuracy = 0.929688
+[2018-04-12 19:06:40.066026] Iteration 42800, train loss = 0.511863, train accuracy = 0.914062
+[2018-04-12 19:06:49.036026] Iteration 42900, train loss = 0.469680, train accuracy = 0.914062
+[2018-04-12 19:06:58.084026] Iteration 43000, train loss = 0.412833, train accuracy = 0.914062
+Evaluating...
+Test accuracy = 0.834200
+[2018-04-12 19:07:09.144426] Iteration 43100, train loss = 0.458797, train accuracy = 0.882812
+[2018-04-12 19:07:18.239226] Iteration 43200, train loss = 0.330971, train accuracy = 0.960938
+[2018-04-12 19:07:27.287226] Iteration 43300, train loss = 0.408294, train accuracy = 0.914062
+[2018-04-12 19:07:36.382027] Iteration 43400, train loss = 0.416509, train accuracy = 0.921875
+[2018-04-12 19:07:45.492427] Iteration 43500, train loss = 0.403428, train accuracy = 0.929688
+[2018-04-12 19:07:54.540427] Iteration 43600, train loss = 0.444647, train accuracy = 0.898438
+[2018-04-12 19:08:03.588427] Iteration 43700, train loss = 0.315722, train accuracy = 0.968750
+[2018-04-12 19:08:12.714427] Iteration 43800, train loss = 0.345049, train accuracy = 0.968750
+[2018-04-12 19:08:21.731227] Iteration 43900, train loss = 0.379267, train accuracy = 0.945312
+[2018-04-12 19:08:30.748027] Iteration 44000, train loss = 0.442799, train accuracy = 0.929688
+Evaluating...
+Test accuracy = 0.841300
+[2018-04-12 19:08:41.777227] Iteration 44100, train loss = 0.392471, train accuracy = 0.921875
+[2018-04-12 19:08:50.762827] Iteration 44200, train loss = 0.442802, train accuracy = 0.914062
+[2018-04-12 19:08:59.779627] Iteration 44300, train loss = 0.392680, train accuracy = 0.921875
+[2018-04-12 19:09:08.812027] Iteration 44400, train loss = 0.354681, train accuracy = 0.953125
+[2018-04-12 19:09:17.875627] Iteration 44500, train loss = 0.375289, train accuracy = 0.929688
+[2018-04-12 19:09:26.986027] Iteration 44600, train loss = 0.455408, train accuracy = 0.914062
+[2018-04-12 19:09:36.096427] Iteration 44700, train loss = 0.377645, train accuracy = 0.921875
+[2018-04-12 19:09:45.128827] Iteration 44800, train loss = 0.408642, train accuracy = 0.953125
+[2018-04-12 19:09:54.192427] Iteration 44900, train loss = 0.380323, train accuracy = 0.953125
+[2018-04-12 19:10:03.209227] Iteration 45000, train loss = 0.402822, train accuracy = 0.921875
+Evaluating...
+Test accuracy = 0.827200
+[2018-04-12 19:10:14.238428] Iteration 45100, train loss = 0.451046, train accuracy = 0.914062
+[2018-04-12 19:10:23.333228] Iteration 45200, train loss = 0.387526, train accuracy = 0.953125
+[2018-04-12 19:10:32.396828] Iteration 45300, train loss = 0.462933, train accuracy = 0.914062
+[2018-04-12 19:10:41.491628] Iteration 45400, train loss = 0.423606, train accuracy = 0.890625
+[2018-04-12 19:10:50.570828] Iteration 45500, train loss = 0.381309, train accuracy = 0.945312
+[2018-04-12 19:10:59.650028] Iteration 45600, train loss = 0.628271, train accuracy = 0.882812
+[2018-04-12 19:11:08.698028] Iteration 45700, train loss = 0.423697, train accuracy = 0.906250
+[2018-04-12 19:11:17.746028] Iteration 45800, train loss = 0.339755, train accuracy = 0.953125
+[2018-04-12 19:11:26.762828] Iteration 45900, train loss = 0.522285, train accuracy = 0.906250
+[2018-04-12 19:11:35.842028] Iteration 46000, train loss = 0.366328, train accuracy = 0.945312
+Evaluating...
+Test accuracy = 0.837300
+[2018-04-12 19:11:46.793228] Iteration 46100, train loss = 0.394853, train accuracy = 0.937500
+[2018-04-12 19:11:55.888028] Iteration 46200, train loss = 0.431034, train accuracy = 0.937500
+[2018-04-12 19:12:04.920428] Iteration 46300, train loss = 0.451594, train accuracy = 0.914062
+[2018-04-12 19:12:13.921628] Iteration 46400, train loss = 0.436618, train accuracy = 0.898438
+[2018-04-12 19:12:23.016428] Iteration 46500, train loss = 0.385065, train accuracy = 0.937500
+[2018-04-12 19:12:32.080028] Iteration 46600, train loss = 0.351762, train accuracy = 0.945312
+[2018-04-12 19:12:41.081228] Iteration 46700, train loss = 0.430175, train accuracy = 0.921875
+[2018-04-12 19:12:50.144829] Iteration 46800, train loss = 0.463354, train accuracy = 0.906250
+[2018-04-12 19:12:59.177229] Iteration 46900, train loss = 0.469656, train accuracy = 0.914062
+[2018-04-12 19:13:08.240829] Iteration 47000, train loss = 0.378748, train accuracy = 0.953125
+Evaluating...
+Test accuracy = 0.833400
+[2018-04-12 19:13:19.255429] Iteration 47100, train loss = 0.315636, train accuracy = 0.960938
+[2018-04-12 19:13:28.257629] Iteration 47200, train loss = 0.428498, train accuracy = 0.914062
+[2018-04-12 19:13:37.275429] Iteration 47300, train loss = 0.435162, train accuracy = 0.906250
+[2018-04-12 19:13:46.339029] Iteration 47400, train loss = 0.423002, train accuracy = 0.875000
+[2018-04-12 19:13:55.340229] Iteration 47500, train loss = 0.406752, train accuracy = 0.929688
+[2018-04-12 19:14:04.372629] Iteration 47600, train loss = 0.353942, train accuracy = 0.960938
+[2018-04-12 19:14:13.451829] Iteration 47700, train loss = 0.333892, train accuracy = 0.945312
+[2018-04-12 19:14:22.468629] Iteration 47800, train loss = 0.436369, train accuracy = 0.906250
+[2018-04-12 19:14:31.469829] Iteration 47900, train loss = 0.340135, train accuracy = 0.937500
+[2018-04-12 19:14:40.533429] Iteration 48000, train loss = 0.310435, train accuracy = 0.968750
+Evaluating...
+Test accuracy = 0.827100
+Learning rate set to 0.001000
+[2018-04-12 19:14:51.593829] Iteration 48100, train loss = 0.429259, train accuracy = 0.921875
+[2018-04-12 19:15:00.657429] Iteration 48200, train loss = 0.356873, train accuracy = 0.968750
+[2018-04-12 19:15:09.721029] Iteration 48300, train loss = 0.325445, train accuracy = 0.953125
+[2018-04-12 19:15:18.644229] Iteration 48400, train loss = 0.377580, train accuracy = 0.929688
+[2018-04-12 19:15:27.692230] Iteration 48500, train loss = 0.319600, train accuracy = 0.953125
+[2018-04-12 19:15:36.740230] Iteration 48600, train loss = 0.327200, train accuracy = 0.976562
+[2018-04-12 19:15:45.694630] Iteration 48700, train loss = 0.271627, train accuracy = 0.992188
+[2018-04-12 19:15:54.758230] Iteration 48800, train loss = 0.318754, train accuracy = 0.960938
+[2018-04-12 19:16:03.759430] Iteration 48900, train loss = 0.257359, train accuracy = 0.984375
+[2018-04-12 19:16:12.838630] Iteration 49000, train loss = 0.289341, train accuracy = 0.984375
+Evaluating...
+Test accuracy = 0.915800
+[2018-04-12 19:16:23.883430] Iteration 49100, train loss = 0.263329, train accuracy = 0.976562
+[2018-04-12 19:16:32.962630] Iteration 49200, train loss = 0.319297, train accuracy = 0.953125
+[2018-04-12 19:16:42.073030] Iteration 49300, train loss = 0.290758, train accuracy = 0.976562
+[2018-04-12 19:16:51.136630] Iteration 49400, train loss = 0.272542, train accuracy = 0.976562
+[2018-04-12 19:17:00.215830] Iteration 49500, train loss = 0.266607, train accuracy = 0.984375
+[2018-04-12 19:17:09.217030] Iteration 49600, train loss = 0.246530, train accuracy = 0.992188
+[2018-04-12 19:17:18.265030] Iteration 49700, train loss = 0.332647, train accuracy = 0.953125
+[2018-04-12 19:17:27.297430] Iteration 49800, train loss = 0.293281, train accuracy = 0.968750
+[2018-04-12 19:17:36.361030] Iteration 49900, train loss = 0.263360, train accuracy = 0.984375
+[2018-04-12 19:17:45.471430] Iteration 50000, train loss = 0.237029, train accuracy = 1.000000
+Evaluating...
+Test accuracy = 0.918600
+[2018-04-12 19:17:56.594231] Iteration 50100, train loss = 0.303737, train accuracy = 0.968750
+[2018-04-12 19:18:05.533031] Iteration 50200, train loss = 0.274763, train accuracy = 0.976562
+[2018-04-12 19:18:14.503031] Iteration 50300, train loss = 0.279609, train accuracy = 0.968750
+[2018-04-12 19:18:23.504231] Iteration 50400, train loss = 0.286735, train accuracy = 0.960938
+[2018-04-12 19:18:32.521031] Iteration 50500, train loss = 0.251096, train accuracy = 0.984375
+[2018-04-12 19:18:41.569031] Iteration 50600, train loss = 0.276454, train accuracy = 0.976562
+[2018-04-12 19:18:50.554631] Iteration 50700, train loss = 0.211209, train accuracy = 1.000000
+[2018-04-12 19:18:59.587031] Iteration 50800, train loss = 0.266509, train accuracy = 0.976562
+[2018-04-12 19:19:08.588231] Iteration 50900, train loss = 0.274061, train accuracy = 0.968750
+[2018-04-12 19:19:17.761031] Iteration 51000, train loss = 0.297245, train accuracy = 0.976562
+Evaluating...
+Test accuracy = 0.916800
+[2018-04-12 19:19:28.837031] Iteration 51100, train loss = 0.251565, train accuracy = 0.968750
+[2018-04-12 19:19:37.775831] Iteration 51200, train loss = 0.279424, train accuracy = 0.976562
+[2018-04-12 19:19:46.823831] Iteration 51300, train loss = 0.262422, train accuracy = 0.984375
+[2018-04-12 19:19:55.856231] Iteration 51400, train loss = 0.286089, train accuracy = 0.984375
+[2018-04-12 19:20:04.919831] Iteration 51500, train loss = 0.223272, train accuracy = 0.992188
+[2018-04-12 19:20:14.045831] Iteration 51600, train loss = 0.300317, train accuracy = 0.953125
+[2018-04-12 19:20:23.140631] Iteration 51700, train loss = 0.267582, train accuracy = 0.968750
+[2018-04-12 19:20:32.173032] Iteration 51800, train loss = 0.262340, train accuracy = 0.976562
+[2018-04-12 19:20:41.189832] Iteration 51900, train loss = 0.275660, train accuracy = 0.968750
+[2018-04-12 19:20:50.222232] Iteration 52000, train loss = 0.272476, train accuracy = 0.960938
+Evaluating...
+Test accuracy = 0.919500
+[2018-04-12 19:21:01.235832] Iteration 52100, train loss = 0.279994, train accuracy = 0.953125
+[2018-04-12 19:21:10.237032] Iteration 52200, train loss = 0.241542, train accuracy = 0.984375
+[2018-04-12 19:21:19.285032] Iteration 52300, train loss = 0.248976, train accuracy = 0.976562
+[2018-04-12 19:21:28.379832] Iteration 52400, train loss = 0.270012, train accuracy = 0.960938
+[2018-04-12 19:21:37.459032] Iteration 52500, train loss = 0.228815, train accuracy = 0.992188
+[2018-04-12 19:21:46.507032] Iteration 52600, train loss = 0.245066, train accuracy = 0.984375
+[2018-04-12 19:21:55.508232] Iteration 52700, train loss = 0.252887, train accuracy = 0.976562
+[2018-04-12 19:22:04.509432] Iteration 52800, train loss = 0.276683, train accuracy = 0.976562
+[2018-04-12 19:22:13.495032] Iteration 52900, train loss = 0.258815, train accuracy = 0.976562
+[2018-04-12 19:22:22.527432] Iteration 53000, train loss = 0.276724, train accuracy = 0.968750
+Evaluating...
+Test accuracy = 0.918100
+[2018-04-12 19:22:33.556632] Iteration 53100, train loss = 0.246400, train accuracy = 0.976562
+[2018-04-12 19:22:42.620232] Iteration 53200, train loss = 0.254775, train accuracy = 0.976562
+[2018-04-12 19:22:51.637032] Iteration 53300, train loss = 0.240162, train accuracy = 0.992188
+[2018-04-12 19:23:00.622632] Iteration 53400, train loss = 0.248510, train accuracy = 0.968750
+[2018-04-12 19:23:09.639433] Iteration 53500, train loss = 0.240202, train accuracy = 0.968750
+[2018-04-12 19:23:18.703033] Iteration 53600, train loss = 0.239935, train accuracy = 0.984375
+[2018-04-12 19:23:27.735433] Iteration 53700, train loss = 0.242871, train accuracy = 0.976562
+[2018-04-12 19:23:36.767833] Iteration 53800, train loss = 0.254772, train accuracy = 0.968750
+[2018-04-12 19:23:45.769033] Iteration 53900, train loss = 0.221961, train accuracy = 1.000000
+[2018-04-12 19:23:54.801433] Iteration 54000, train loss = 0.216051, train accuracy = 1.000000
+Evaluating...
+Test accuracy = 0.916300
+[2018-04-12 19:24:05.861833] Iteration 54100, train loss = 0.204376, train accuracy = 1.000000
+[2018-04-12 19:24:14.847433] Iteration 54200, train loss = 0.206055, train accuracy = 1.000000
+[2018-04-12 19:24:23.911033] Iteration 54300, train loss = 0.240527, train accuracy = 0.984375
+[2018-04-12 19:24:32.927833] Iteration 54400, train loss = 0.237775, train accuracy = 0.992188
+[2018-04-12 19:24:41.975833] Iteration 54500, train loss = 0.262760, train accuracy = 0.968750
+[2018-04-12 19:24:51.070633] Iteration 54600, train loss = 0.230524, train accuracy = 0.992188
+[2018-04-12 19:25:00.149833] Iteration 54700, train loss = 0.235123, train accuracy = 0.984375
+[2018-04-12 19:25:09.213433] Iteration 54800, train loss = 0.231106, train accuracy = 0.984375
+[2018-04-12 19:25:18.261433] Iteration 54900, train loss = 0.277665, train accuracy = 0.953125
+[2018-04-12 19:25:27.293833] Iteration 55000, train loss = 0.266493, train accuracy = 0.968750
+Evaluating...
+Test accuracy = 0.917400
+[2018-04-12 19:25:38.354233] Iteration 55100, train loss = 0.224847, train accuracy = 0.984375
+[2018-04-12 19:25:47.402234] Iteration 55200, train loss = 0.225021, train accuracy = 0.984375
+[2018-04-12 19:25:56.403434] Iteration 55300, train loss = 0.233101, train accuracy = 0.984375
+[2018-04-12 19:26:05.451434] Iteration 55400, train loss = 0.281163, train accuracy = 0.945312
+[2018-04-12 19:26:14.546234] Iteration 55500, train loss = 0.215529, train accuracy = 0.992188
+[2018-04-12 19:26:23.563034] Iteration 55600, train loss = 0.221766, train accuracy = 0.992188
+[2018-04-12 19:26:32.564234] Iteration 55700, train loss = 0.287692, train accuracy = 0.945312
+[2018-04-12 19:26:41.612234] Iteration 55800, train loss = 0.251668, train accuracy = 0.984375
+[2018-04-12 19:26:50.660234] Iteration 55900, train loss = 0.230818, train accuracy = 0.984375
+[2018-04-12 19:26:59.692634] Iteration 56000, train loss = 0.222627, train accuracy = 0.984375
+Evaluating...
+Test accuracy = 0.917700
+[2018-04-12 19:27:10.721834] Iteration 56100, train loss = 0.253645, train accuracy = 0.976562
+[2018-04-12 19:27:19.754234] Iteration 56200, train loss = 0.254007, train accuracy = 0.976562
+[2018-04-12 19:27:28.708634] Iteration 56300, train loss = 0.239271, train accuracy = 0.968750
+[2018-04-12 19:27:37.709834] Iteration 56400, train loss = 0.241533, train accuracy = 0.976562
+[2018-04-12 19:27:46.789034] Iteration 56500, train loss = 0.200280, train accuracy = 1.000000
+[2018-04-12 19:27:55.837034] Iteration 56600, train loss = 0.209902, train accuracy = 1.000000
+[2018-04-12 19:28:04.963034] Iteration 56700, train loss = 0.272750, train accuracy = 0.984375
+[2018-04-12 19:28:13.964234] Iteration 56800, train loss = 0.238761, train accuracy = 0.984375
+[2018-04-12 19:28:23.043435] Iteration 56900, train loss = 0.217789, train accuracy = 0.992188
+[2018-04-12 19:28:32.044635] Iteration 57000, train loss = 0.260904, train accuracy = 0.976562
+Evaluating...
+Test accuracy = 0.917500
+[2018-04-12 19:28:43.058235] Iteration 57100, train loss = 0.227926, train accuracy = 0.984375
+[2018-04-12 19:28:52.090635] Iteration 57200, train loss = 0.199338, train accuracy = 0.992188
+[2018-04-12 19:29:01.154235] Iteration 57300, train loss = 0.196120, train accuracy = 0.992188
+[2018-04-12 19:29:10.171035] Iteration 57400, train loss = 0.220799, train accuracy = 0.992188
+[2018-04-12 19:29:19.250235] Iteration 57500, train loss = 0.253661, train accuracy = 0.968750
+[2018-04-12 19:29:28.220235] Iteration 57600, train loss = 0.211491, train accuracy = 0.992188
+[2018-04-12 19:29:37.268235] Iteration 57700, train loss = 0.222373, train accuracy = 0.992188
+[2018-04-12 19:29:46.238235] Iteration 57800, train loss = 0.233374, train accuracy = 0.976562
+[2018-04-12 19:29:55.348635] Iteration 57900, train loss = 0.228955, train accuracy = 0.984375
+[2018-04-12 19:30:04.396635] Iteration 58000, train loss = 0.212647, train accuracy = 1.000000
+Evaluating...
+Test accuracy = 0.917700
+[2018-04-12 19:30:15.410235] Iteration 58100, train loss = 0.195035, train accuracy = 1.000000
+[2018-04-12 19:30:24.427035] Iteration 58200, train loss = 0.206551, train accuracy = 0.992188
+[2018-04-12 19:30:33.428235] Iteration 58300, train loss = 0.210184, train accuracy = 0.992188
+[2018-04-12 19:30:42.413835] Iteration 58400, train loss = 0.278382, train accuracy = 0.953125
+[2018-04-12 19:30:51.493035] Iteration 58500, train loss = 0.278034, train accuracy = 0.960938
+[2018-04-12 19:31:00.541036] Iteration 58600, train loss = 0.239196, train accuracy = 0.968750
+[2018-04-12 19:31:09.651436] Iteration 58700, train loss = 0.208643, train accuracy = 0.992188
+[2018-04-12 19:31:18.746236] Iteration 58800, train loss = 0.213769, train accuracy = 0.992188
+[2018-04-12 19:31:27.747436] Iteration 58900, train loss = 0.247323, train accuracy = 0.976562
+[2018-04-12 19:31:36.857836] Iteration 59000, train loss = 0.194472, train accuracy = 1.000000
+Evaluating...
+Test accuracy = 0.918400
+[2018-04-12 19:31:47.980636] Iteration 59100, train loss = 0.224916, train accuracy = 0.984375
+[2018-04-12 19:31:56.997436] Iteration 59200, train loss = 0.237919, train accuracy = 0.976562
+[2018-04-12 19:32:06.045436] Iteration 59300, train loss = 0.204227, train accuracy = 0.992188
+[2018-04-12 19:32:15.077836] Iteration 59400, train loss = 0.211217, train accuracy = 0.984375
+[2018-04-12 19:32:24.125836] Iteration 59500, train loss = 0.200238, train accuracy = 1.000000
+[2018-04-12 19:32:33.127036] Iteration 59600, train loss = 0.227914, train accuracy = 0.976562
+[2018-04-12 19:32:42.237436] Iteration 59700, train loss = 0.209974, train accuracy = 0.992188
+[2018-04-12 19:32:51.285436] Iteration 59800, train loss = 0.248120, train accuracy = 0.968750
+[2018-04-12 19:33:00.317836] Iteration 59900, train loss = 0.205478, train accuracy = 0.984375
+[2018-04-12 19:33:09.334636] Iteration 60000, train loss = 0.188109, train accuracy = 1.000000
+Evaluating...
+Test accuracy = 0.917800
+[2018-04-12 19:33:20.473036] Iteration 60100, train loss = 0.219535, train accuracy = 0.984375
+[2018-04-12 19:33:29.536636] Iteration 60200, train loss = 0.210859, train accuracy = 0.992188
+[2018-04-12 19:33:38.584637] Iteration 60300, train loss = 0.193548, train accuracy = 0.992188
+[2018-04-12 19:33:47.601437] Iteration 60400, train loss = 0.197713, train accuracy = 0.992188
+[2018-04-12 19:33:56.680637] Iteration 60500, train loss = 0.239817, train accuracy = 0.968750
+[2018-04-12 19:34:05.713037] Iteration 60600, train loss = 0.188520, train accuracy = 1.000000
+[2018-04-12 19:34:14.745437] Iteration 60700, train loss = 0.191521, train accuracy = 1.000000
+[2018-04-12 19:34:23.809037] Iteration 60800, train loss = 0.197857, train accuracy = 1.000000
+[2018-04-12 19:34:32.857037] Iteration 60900, train loss = 0.199710, train accuracy = 0.992188
+[2018-04-12 19:34:41.951837] Iteration 61000, train loss = 0.195992, train accuracy = 0.992188
+Evaluating...
+Test accuracy = 0.918700
+[2018-04-12 19:34:52.981037] Iteration 61100, train loss = 0.193476, train accuracy = 1.000000
+[2018-04-12 19:35:02.029037] Iteration 61200, train loss = 0.206485, train accuracy = 0.992188
+[2018-04-12 19:35:10.999037] Iteration 61300, train loss = 0.255853, train accuracy = 0.976562
+[2018-04-12 19:35:20.000237] Iteration 61400, train loss = 0.227742, train accuracy = 0.968750
+[2018-04-12 19:35:29.095037] Iteration 61500, train loss = 0.204103, train accuracy = 1.000000
+[2018-04-12 19:35:38.158637] Iteration 61600, train loss = 0.195167, train accuracy = 0.992188
+[2018-04-12 19:35:47.144237] Iteration 61700, train loss = 0.216777, train accuracy = 0.984375
+[2018-04-12 19:35:56.176637] Iteration 61800, train loss = 0.189251, train accuracy = 0.992188
+[2018-04-12 19:36:05.224637] Iteration 61900, train loss = 0.225821, train accuracy = 0.984375
+[2018-04-12 19:36:14.241438] Iteration 62000, train loss = 0.223754, train accuracy = 0.984375
+Evaluating...
+Test accuracy = 0.918400
+[2018-04-12 19:36:25.301838] Iteration 62100, train loss = 0.189959, train accuracy = 0.992188
+[2018-04-12 19:36:34.396638] Iteration 62200, train loss = 0.200372, train accuracy = 0.984375
+[2018-04-12 19:36:43.413438] Iteration 62300, train loss = 0.193033, train accuracy = 0.992188
+[2018-04-12 19:36:52.399038] Iteration 62400, train loss = 0.180379, train accuracy = 1.000000
+[2018-04-12 19:37:01.400238] Iteration 62500, train loss = 0.191968, train accuracy = 1.000000
+[2018-04-12 19:37:10.463838] Iteration 62600, train loss = 0.216856, train accuracy = 0.976562
+[2018-04-12 19:37:19.527438] Iteration 62700, train loss = 0.206184, train accuracy = 0.984375
+[2018-04-12 19:37:28.669038] Iteration 62800, train loss = 0.184868, train accuracy = 0.992188
+[2018-04-12 19:37:37.732638] Iteration 62900, train loss = 0.182179, train accuracy = 1.000000
+[2018-04-12 19:37:46.858638] Iteration 63000, train loss = 0.199468, train accuracy = 0.984375
+Evaluating...
+Test accuracy = 0.918000
+[2018-04-12 19:37:57.887838] Iteration 63100, train loss = 0.224088, train accuracy = 0.968750
+[2018-04-12 19:38:06.920238] Iteration 63200, train loss = 0.208740, train accuracy = 0.976562
+[2018-04-12 19:38:16.108638] Iteration 63300, train loss = 0.212497, train accuracy = 0.984375
+[2018-04-12 19:38:25.109838] Iteration 63400, train loss = 0.202946, train accuracy = 0.984375
+[2018-04-12 19:38:34.126638] Iteration 63500, train loss = 0.193186, train accuracy = 0.984375
+[2018-04-12 19:38:43.174638] Iteration 63600, train loss = 0.164808, train accuracy = 1.000000
+[2018-04-12 19:38:52.160239] Iteration 63700, train loss = 0.204940, train accuracy = 0.992188
+[2018-04-12 19:39:01.177039] Iteration 63800, train loss = 0.171324, train accuracy = 1.000000
+[2018-04-12 19:39:10.162639] Iteration 63900, train loss = 0.182282, train accuracy = 0.992188
+
+Process finished with exit code 0
