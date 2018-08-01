@@ -1,0 +1,3 @@
+dynamic quantization coding :
+resnet_3.py,resnet_4.py,resnet_5.py这三个文件对ResNet量化的码表中没有0。
+resnet_0_3.py,resnet_0_4.py,resnet_0_5.py，py这三个文件对ResNet量化的码表中有0。  
