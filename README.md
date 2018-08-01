@@ -16,11 +16,11 @@
 
 码表中无0的量化方式：
 
-![image](https://github.com/chuanraoCV/Compress-Neural-Networks-With-Dynamic-Quantization/tree/master/reasult/公式.png)
+![image](https://github.com/chuanraoCV/Compress-Neural-Networks-With-Dynamic-Quantization/tree/master/reasult/公式1.png)
 
 码表中有0的量化方式：
 
-![image](https://github.com/chuanraoCV/Compress-Neural-Networks-With-Dynamic-Quantization/tree/master/reasult/公式1.png)
+![image](https://github.com/chuanraoCV/Compress-Neural-Networks-With-Dynamic-Quantization/tree/master/reasult/公式.png)
 
 运行方式：
 
