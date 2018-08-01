@@ -14,6 +14,19 @@
 ![image](https://github.com/chuanraoCV/Compress-Neural-Networks-With-Dynamic-Quantization/tree/master/reasult/结果1.png)
 
 
+运行方式：
+
+（1）下载cifar-10数据集：http://www.cs.toronto.edu/~kriz/cifar.html
+
+（2）使用data/data_tfrecord.py生成tfrecord文件
+
+（3）使用full_precesion文件下不同深度的ResNet对网络训练，生成baseline，没有压缩前的实验结果。
+
+（4）进行压缩训练：
+  
+   a.在code文件下有两个问价分别为
+
+
 
 
 
