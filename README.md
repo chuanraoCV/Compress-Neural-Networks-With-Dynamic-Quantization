@@ -7,20 +7,20 @@
 
 采用动态量化编码的方法，码表中没有0的结果：
 
-![image](https://github.com/chuanraoCV/Compress-Neural-Networks-With-Dynamic-Quantization/tree/master/reasult/结果.png)
+![](/reasult/结果.png)
 
 码表中有0，量化的结果：
 
-![image](https://github.com/chuanraoCV/Compress-Neural-Networks-With-Dynamic-Quantization/tree/master/reasult/结果1.png)
+![](/reasult/结果1.png)
 
 
 码表中无0的量化方式：
 
-![image](https://github.com/chuanraoCV/Compress-Neural-Networks-With-Dynamic-Quantization/tree/master/reasult/公式1.png)
+![](/reasult/公式1.png)
 
 码表中有0的量化方式：
 
-![image](https://github.com/chuanraoCV/Compress-Neural-Networks-With-Dynamic-Quantization/tree/master/reasult/公式.png)
+![](/reasult/公式.png)
 
 运行方式：
 
